@@ -19,7 +19,7 @@ An CSV file example is provided in the repo.
 
 ## Run the script
 
-**Make sure the path is properly set** in the code, and then
+**Make sure that the path is properly set** in the code, and then
 ```
 python csv2bib.py
 ```
