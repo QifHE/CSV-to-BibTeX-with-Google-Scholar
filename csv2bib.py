@@ -4,7 +4,7 @@ import time
 
 csvFilePath = "./refs.csv"
 keys = "reference"
-bibFilePath = "gsh.bib"
+bibFilePath = "refs.bib"
 f = open(bibFilePath,'w',newline='',encoding='utf-8')
 
 with open(csvFilePath, encoding='utf-8') as csvf:

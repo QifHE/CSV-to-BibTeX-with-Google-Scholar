@@ -1,2 +1,25 @@
 # CSV to BibTeX with Google Scholar
- Match lines from a CSV file and convert them to corresponding BibTeX items and save in a bib file.
+
+This repo provideds a tool that match lines from a CSV file and convert them to corresponding BibTeX items in Google Scholar with the highest ranking, and save in a bib file. It is useful when you want to re-organize your chaotic citaions in an MS WORD file.
+
+## Prerequisite
+- Python 3.x
+- [venthur/gscholar](https://github.com/venthur/gscholar)
+```
+pip install gscholar
+```
+## Preparation
+The code assumes that your CSV files look similar to the following:
+| order | reference    |
+|-------|--------------|
+| 1     | PoinTr       |
+| 2     | SnowflakeNet |
+
+An CSV file example is provided in the repo. 
+
+## Run the script
+
+**Make sure the path is properly set** in the code, and then
+```
+python csv2bib.py
+```
