@@ -1,5 +1,7 @@
 # CSV to BibTeX with Google Scholar
 
+<img src="https://github.com/QifHE/CSV-to-BibTeX-with-Google-Scholar/blob/main/bibcover.jpg?raw=true" style="width:80%;margin-left:auto;margin-right:auto;" />
+
 This repo provideds a tool that match lines from a CSV file and convert them to corresponding BibTeX items in Google Scholar with the highest ranking, and save in a bib file. It is useful when you want to re-organize your chaotic citaions in an MS WORD file.
 
 ## Prerequisite
